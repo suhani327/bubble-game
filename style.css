@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    font-family: georgia;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 81, 202);
+}
+
+#toppanal {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(229, 186, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 0 0 10% 10%;
+
+}
+
+.scoreboard {
+    background-color: #fff;
+    color: black;
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 10%;
+
+}
+
+.box {
+    display: flex;
+}
+
+#btmpanal {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+}
+
+.bubble {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: rgba(225, 212, 223, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble:hover{
+    background: rgb(217, 48, 217);
+}
